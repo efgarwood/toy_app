@@ -51,7 +51,8 @@ group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem "sqlite3", "1.4.2"
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
-  gem "debug", "1.5.0", platforms: %i[ mri mingw x64_mingw ]
+  # gem "debug", "1.5.0", platforms: %i[ mri mingw x64_mingw ]
+  gem "pry-byebug"
 end
 
 group :development do
